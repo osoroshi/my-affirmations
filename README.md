@@ -1,5 +1,7 @@
 # My Affirmations
 
+[![](https://img.shields.io/endpoint?url=https%3A%2F%2Faka.ms%2Fvso-badge)](https://online.visualstudio.com/environments/new?name=My%20Affirmations&repo=jlooper/my-affirmations)
+
 Affirmations for daily consumption!
 
 The affirmations on this site were created originally by [@annthurium](https://github.com/annthurium/affirmations/blob/master/affirmations.js).

@@ -22,5 +22,5 @@
 	"postCreateCommand": "npm install -g @vue/cli",
 
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
-	// "remoteUser": "node"
+	"remoteUser": "node"
 }

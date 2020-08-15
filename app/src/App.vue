@@ -1,38 +1,39 @@
 <template>
-	<div id="app">
-		<router-view />
-	</div>
+  <div id="app">
+    <router-view />
+  </div>
 </template>
 
 <script>
 export default {
-	name: 'App',
+  name: "App",
 };
 </script>
 
 <style>
 html,
 body {
-	height: 100%;
-	padding-top: 30px;
+  height: 100%;
+  padding-top: 30px;
 }
 
 body {
-	background: url(./assets/cat.png) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    312deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 html {
-	font-family: 'Homemade Apple', cursive;
-	font-size: 2em;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	text-align: center;
+  font-family: "Homemade Apple", cursive;
+  font-size: 2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
 }
 .quote {
-	color: white;
-	text-align: center;
+  color: white;
+  text-align: center;
 }
 </style>
